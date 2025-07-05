@@ -1,0 +1,32 @@
+/* src/pages/Home.css */
+
+.dark .products-section {
+  background-color: #1f2937;
+   color: #f3f4f6;
+}
+
+
+.dark .products-heading {
+  color: #f3f4f6;
+   background-color: #1f2937;
+}
+
+
+/* src/pages/Home.css */
+.products-section {
+  padding: 2rem;
+}
+
+.products-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #111827;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Responsive grid */
+  gap: 2rem;
+  justify-items: center; /* Center items in the grid */
+}
